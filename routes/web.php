@@ -13,3 +13,7 @@ Route::get('/index', function () {
 Route::get('/', function () {
     return view('login'); // ke halaman login.blade.php
 });
+
+Route::get('/about', function () {
+    return view('about'); // ke halaman about.blade.php
+});
